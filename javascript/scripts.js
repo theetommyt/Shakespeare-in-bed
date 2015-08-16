@@ -2,19 +2,21 @@
 $(document).ready(function(){
 
 
-  $('#form-name').on('submit', function(e){
+  $("#form-name").on("submit", function(e){
     e.preventDefault();
 
+    // var randomId = Math.floor(Math.random() * (1000 - 1 + 1)) + 1;
+
     $.ajax({
-      method: 'get',
-      url: 'http://shakeitspeare.com/api/sentence',
+      method: "get",
+      url: "http://shakeitspeare.com/api/sentence",
       success: function(sentenceData){
-        $('#my-line').text(sentenceData.sentence.replace(/[\.?!]/,""));
+        $("#my-line").text(sentenceData.sentence.replace(/[\.?!]/,"") + " ");
       }
     })
 
-    var name = $('#name').val();
-    $('#line2').text("with " + name + " in bed.")
+    var name = $("#name").val();
+    $("#line2").text(" with " + name + " in bed.")
 
   });
 

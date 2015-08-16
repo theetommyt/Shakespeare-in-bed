@@ -1,27 +1,34 @@
 <html>
   <head>
-    <title>CookieSpeare</title>
+    <title>Shakspeare... in bed</title>
+    <link href='http://fonts.googleapis.com/css?family=Fondamento:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/styles.css" media="screen" title="no title" charset="utf-8">
     <script src='javascript/jquery.js'></script>
     <script src='javascript/scripts.js'></script>
   </head>
   <body>
-  <div id="headImage"></div>
+  <div id="wrapper">
 
-  <div id="name-data">
-    <form id="form-name">
-      <input id="name" type="text" name="name" placeholder="Your Name">
-      <input type="submit">
-    </form>
-  </div>
+    <header>
+      <img src="images/billWink.png" id="headImage">
+    </header>
 
-  <div id="cookie"></div>
+    <section id="content">
+        <div id="name-data">
+          <form id="form-name">
+            <input id="name" type="text" name="name" placeholder="Enter Thy Name"><br>
+            <button type="submit" id="form-btn">Alas! My Fortune!</button>
+            <!-- <input type="submit" id="form-btn"> -->
+          </form>
+        </div>
 
+        <div id="fortune">
+          <h1 id='my-line'></h1>
+          <h1 id='line2'></h1>
+        </div>
+      </section>
 
-  <div id="fortune">
-    <h1 id='my-line'></h1>
-    <h1 id='line2'></h1>
-  </div>
+</div>
 
 </body>
 </html>
