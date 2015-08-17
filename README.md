@@ -37,7 +37,7 @@ $("#form-name").on("submit", function(e){
 ##Screenshots
 <br>
 ####When Page loads:
-![initial view]("../images/screenshot1.png")
+![initial view]("/images/initialView.png")
 <br>
 ####After a name is entered:
-![updated view]("../images/screenshot2.png")
+![updated view]("/images/updatedView.png")
