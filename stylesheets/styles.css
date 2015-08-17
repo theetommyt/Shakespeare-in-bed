@@ -15,13 +15,16 @@ header {
 }
 
 #headImage{
-  width: 100%
+  width: 100%;
+  margin-top: -10px;
 }
 
 #content {
   width: 30%;
   position: relative;
   float: left;
+  background-image: url("../images/parchment.jpg");
+  background-size: contain;
 }
 
 form {
@@ -35,12 +38,15 @@ form {
 }
 
 #name {
-  width: 100%;
+  width: 96%;
   height: 30px;
+  background: rgba(0, 0, 0, 0.4);;
+  border: none;
   font-family: "Fondamento", cursive;
   font-size: 1.3rem;
-  border: none;
   margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding-left: 5px;
 }
 
@@ -50,15 +56,16 @@ form {
 }
 
 #form-btn {
-  width: 100%;
-  background: cornsilk;
-  border: 0;
-  color: brown;
+  width: 96%;
+  background: rgba(0, 0, 0, 0.0);
+  border: 2px solid brown;
+  color: black;
   font-family: "Fondamento", cursive;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   height: 30px;
   margin-top: 5px;
-  border: none;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 #cookie-div {
@@ -72,11 +79,9 @@ form {
 }
 
 #fortune {
-  width: 100%;
-  /*height: auto;*/
-  background-image: url("../images/speech.png");
-  background-size: contain;
-  margin-top: 10px;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 10px;
   opacity: .9;
 }
