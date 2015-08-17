@@ -37,7 +37,7 @@ $("#form-name").on("submit", function(e){
 ##Screenshots
 <br>
 ####When Page loads:
-![initial view]("/images/initialView.png")
+![initial view](https://raw.github.com/theetommyt/Shakespeare-in-bed/master/images/initialView.png)
 <br>
 ####After a name is entered:
-![updated view]("/images/updatedView.png")
+![updated view](https://raw.github.com/theetommyt/Shakespeare-in-bed/master/images/updatedView.png)
