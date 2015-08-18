@@ -1,0 +1,27 @@
+@media (max-width: 600px){
+
+  body {
+    background-image: url("../images/pattern.jpg");
+    background-size: contain;
+  }
+
+  header {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid rgba(0,0,0,.3);
+  }
+
+  #headImage{
+    width: 50%;
+    background: none;
+    margin: -2% 25% 2% 25%;
+  }
+
+  #content {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 3px solid rgba(0,0,0,.3);
+  }
+
+}

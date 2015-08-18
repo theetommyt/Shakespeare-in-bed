@@ -3,13 +3,8 @@ body{
   background-size: cover;
 }
 
-#wrapper {
-  width: 100%;
-  height: 50%;
-}
-
 header {
-  width: 499px;
+  width: 300px;
   position: relative;
   float: left;
 }
@@ -21,12 +16,18 @@ header {
 }
 
 #content {
-  width: 499px;
+  width: 300px;
   position: relative;
   float: left;
   background-image: url("../images/parchment.jpg");
   background-size: contain;
+  border: 3px solid rgba(0,0,0,.3);
   border-radius: 3px;
+}
+
+h3 {
+  font-family: "Fondamento", cursive;
+  padding: 10px;
 }
 
 form {
@@ -47,7 +48,6 @@ form {
   border-radius: 3px;
   font-family: "Fondamento", cursive;
   font-size: 1.3rem;
-  margin-top: 10%;
   margin-left: 2%;
   margin-right: 2%;
   padding-left: 5px;
@@ -83,7 +83,7 @@ form {
 }
 
 #fortune {
-  width: 96%;
+  width: 94%;
   margin-left: 2%;
   margin-right: 2%;
   padding: 10px;
